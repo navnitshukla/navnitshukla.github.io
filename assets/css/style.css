@@ -420,6 +420,20 @@ section {
   display: block;
 }
 
+.stat-highlight {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+  background: rgba(212,175,55,0.12);
+  border: 1px solid rgba(212,175,55,0.35);
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 /* Scroll indicator */
 .scroll-indicator {
   position: absolute;
